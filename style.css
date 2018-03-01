@@ -2,8 +2,23 @@
     width: 200px;
     height: 200px;
     position: absolute; 
-    background-image: url("https://media3.giphy.com/media/Ex1w4IdYJDfa0/200w.webp");
+    background-image: url("https://media3.giphy.com/media/iRrWh8qeRda92/200w.gif");
     left: 200px;
     top: 200px;
     background-repeat: no-repeat;
+}
+
+body {
+
+    background-image: url("https://media0.giphy.com/media/j8cx6ZG1WsOre/200w.webp");
+    background-repeat: no-repeat;
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }

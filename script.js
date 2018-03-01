@@ -21,13 +21,13 @@ document.addEventListener('keydown', (event) => {
         }
 
         if (keyName == "ArrowRight") {
-            boxleft = boxleft+10;
+            boxleft = boxleft-10;
             document.getElementById("box").style.left = boxleft + "px";
 
         }
 
         if (keyName == "ArrowLeft") {
-            boxleft = boxleft-10;
+            boxleft = boxleft+10;
             document.getElementById("box").style.left = boxleft + "px";
 
         }
