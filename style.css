@@ -1,0 +1,9 @@
+#box {
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    background-image: url("https://media3.giphy.com/media/Ex1w4IdYJDfa0/200w.webp");
+    left: 200px;
+    top: 200px;
+    background-repeat: no-repeat;
+}
